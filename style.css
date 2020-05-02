@@ -305,7 +305,9 @@ table.tabulka tbody td {
 }
 table.tabulka tr:nth-child(even) {
   background: #5D4954;
+  opacity: 0.79;
 }
+
 table.tabulka thead {
   background: #5D4954;
   border-bottom: 2px solid #444444;
@@ -327,8 +329,12 @@ td{
 tr{
     font-family: 'Poppins', sans-sherif;
     text-align: center;
+    color: rgb(197, 193, 193);
 }
 
+.liche td{
+    color: black;
+}
 
 /* MAPA */
 iframe{
