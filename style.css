@@ -288,34 +288,39 @@ abbr{
 
 table.tabulka {
   background-color: #ffffff;
-  width: 100%;
+  width: 80%;
+  height: 60%;
   text-align: center;
   justify-content: center;
-  align-content: center;
+  /* align-content: center; */
   border-collapse: collapse;
-  margin: 20px auto;
+  margin: 30px auto;
 }
 table.tabulka td, table.tabulka th {
   border: 1px solid #ffffff;
   padding: 3px 2px;
-  width: 50%;
+  width: 40%;
 }
 table.tabulka tbody td {
   font-size: 17px;
 }
 table.tabulka tr:nth-child(even) {
-  background: #5D4954;
-  opacity: 0.79;
+  /* background: #5D4954; */
+  background: rgba(93, 73, 84, 0.9);
+  color: white;
 }
 
 table.tabulka thead {
   background: #5D4954;
   border-bottom: 2px solid #444444;
+  
+
 }
 table.tabulka thead th {
-  font-size: 20px;
+  font-size: 23px;
   font-weight: bold;
   text-transform: uppercase;
+  padding: 0.45rem;
 }
 table.tabulka thead th:first-child {
   border-left: none;
@@ -332,8 +337,33 @@ tr{
     color: rgb(197, 193, 193);
 }
 
+.ceník p{
+    padding: 5px;
+}
+
+#nadpis{
+    letter-spacing: 2px;
+}
+
 .liche td{
     color: black;
+}
+
+/* ceník 2 sekce */
+
+.cena{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(93, 73, 84);
+    border: 1px solid green;
+}
+
+/* KONTAKT SEKCE */
+
+.kontakt{
+    width: 100%;
+    height: 100vh;
+    border: 1px solid green;
 }
 
 /* MAPA */
