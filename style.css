@@ -358,7 +358,7 @@ tr{
 
 .cena{
     /* width: 100%; */
-    height: 80vh;
+    height: 62.5vh;
     background-color: rgb(93, 73, 84);
     /* border: 1px solid green; */
     text-align: center;
@@ -382,18 +382,31 @@ tr{
     
 }
 
+.prace p{
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-weight: bold;
+    font-size: 12px;
+}
+
 .cena .ceny{
-    border: 2px solid green;
+    /* border: 2px solid green; */
     width: 50%;
     margin-top: 2rem;
+    margin-bottom: 1rem;
 }
 
 .ceny p{
     font-size: 1.5rem;
+    padding: 3px;
+}
+
+span{
+    color: white;
 }
 
 .text p{
-    border: 2px solid green;
+    /* border: 2px solid green; */
     text-align: center;
     width: 80%;
     margin: 1rem auto;
