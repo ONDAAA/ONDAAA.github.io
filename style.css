@@ -178,6 +178,9 @@ abbr{
 
 .nabídka h1{
     text-align: center;
+    color: white;
+    font-weight: normal;
+    font-size: 1.75rem;
 }
 
 .nabídka h3{
@@ -185,6 +188,7 @@ abbr{
     text-align: center;
     color:rgb(197, 193, 193);
     font-size: 1rem;
+    font-weight: normal;
 }
 
 .nabídka li{
@@ -357,11 +361,13 @@ tr{
 /* ceník 2 sekce */
 
 .cena{
-    /* width: 100%; */
-    height: 62.5vh;
+    width: 100%;
+    /* height: 62.5vh; */
     background-color: rgb(93, 73, 84);
     /* border: 1px solid green; */
     text-align: center;
+    height: fit-content;
+    padding-bottom: 5px;
 }
 
 .cena p{
