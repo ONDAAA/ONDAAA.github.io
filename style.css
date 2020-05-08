@@ -518,10 +518,6 @@ span{
     font-size: 20px;
 }
 
-.pohotovost{
-    /* border: 2px solid green; */
-}
-
 .mapka iframe{
     width: 15rem;
     height: 15rem;
@@ -617,7 +613,7 @@ footer{
         width: 60%;
     }
 }
-@media screen and (max-width:780px){
+/* @media screen and (max-width:780px){
         .nav-links{
             position: absolute;
             right:0px;
@@ -638,16 +634,16 @@ footer{
         .burger{
             display: block;
             /* right: 0px; */
-        }
-        [class*="okno-"] {
+        /* } */
+        /* [class*="okno-"] {
     width: 100%;
   }
 }
+ */
 
-
-.nav-active{
+/* .nav-active{
     transform: translateX(0%);
-}
+} */
 
 
 /* HOVER NENI NA MOBILY ! NAHRADA */
