@@ -621,7 +621,7 @@ footer{
         .nav-links{
             position: absolute;
             right:0px;
-            height:92vh;
+            height: 100%;
             top:8vh;
             background-color: #5D4954;
             display: flex;
@@ -637,6 +637,7 @@ footer{
         }
         .burger{
             display: block;
+            /* right: 0px; */
         }
         [class*="okno-"] {
     width: 100%;
