@@ -628,8 +628,9 @@ footer{
     font-weight: lighter;
     /* border: 2px solid green; */
     display: block;
-    margin: auto;
+    margin: auto 40rem;
     margin-bottom: 15px;
+    
 }
 
 @media screen and (max-width:1024px){
