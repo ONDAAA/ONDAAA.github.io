@@ -614,11 +614,23 @@ footer{
     color: #fafafa;
     font-family: 'Poppins', sans-sherif;
     margin-top: 5px;
-    margin-bottom: 15px;
+    /* margin-bottom: 15px; */
     font-weight: lighter;
     text-align: center;
+    /* border: 2px solid green; */
 }
 
+.copyright a{
+    text-decoration: none;
+    color: #fafafa;
+    font-family: 'Poppins', sans-sherif;
+    text-align: center;
+    font-weight: lighter;
+    /* border: 2px solid green; */
+    display: block;
+    margin: auto;
+    margin-bottom: 15px;
+}
 
 @media screen and (max-width:1024px){
     /* body{
